@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Website - Web Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div class="hero">
+		<nav id="main-navbar">
+			<div class="topnav" id="myTopnav">
+				<a href="webdesign.html#footer-container">CONTACTS</a>
+				<a href="about.html">ABOUT</a>
+				<a href="recipe.html">RECIPES</a>
+				<a href="webdesign.html">HOME</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i></a>
+			</div>
+		</nav>	
+		<div class="banner-title">
+			<h1>Food<span> Doesn't have<br> a religion.</span> It is religion.</h1>
+			<button type="button" class="btn-expl">EXPLORE</button>
+		</div>
+		<div class="vertical-bar">
+			<div class="search-icon">
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="social-icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-pinterest"></i>
+			</div>
+		</div>
+		<div class="notifications">
+			<div class="contents">
+				<small>Welcome to Us! </small>
+				<p><a href="">PREV</a><a href="">NEXT</a></p>
+			</div>
+			<div class="notification-img">
+				<img src="https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="small-img">
+			</div>
+		</div>
+	</div>
+		<footer>
+				<div>
+					&copy; demetrakaram.com | Designed by Demetra K.	
+				</div>
+			</div>
+		</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
+</body>
+</html>
